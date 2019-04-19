@@ -20,11 +20,11 @@ module RedfishTools
     }.freeze
     TRANSITIONS = {
       "On"  => {
-        "GracefullShutdown" => "Off",
+        "GracefulShutdown" => "Off",
         "ForceOff"          => "Off",
         "PushPowerButton"   => "Off",
         "Nmi"               => "Off",
-        "GracefullRestart"  => "On",
+        "GracefulRestart"  => "On",
         "ForceRestart"      => "On",
         "PowerCycle"        => "On",
       }.freeze,
